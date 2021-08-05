@@ -1,25 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import './index.js'
+import './Fruit.css'
+import Pdp from './Fruit';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='container'>
+          <div className='main'>
+            <div className='border'></div>
+            <div className='item'>Fruits:</div>
+            <button className='btn' onClick='subs'>subscribe</button>
+            
+          </div>
+      </div>
+
+<Pdp />
+      
     </div>
   );
 }
 
 export default App;
+

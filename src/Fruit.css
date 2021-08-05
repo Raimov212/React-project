@@ -1,0 +1,29 @@
+.text{
+    color: red;
+    font-size: 50px;
+}
+.container{
+}
+.main{
+    position: relative;
+    width: 50%;
+    display: flex;
+    color: red;
+    justify-content: space-around;
+    align-items: center ;
+    position: absolute;
+    top: 5%;
+    font-family: 'poppins',sans-serif;
+
+}
+.main .border{
+     top: 130%;
+     position: absolute;
+     width: 100%;
+    border-bottom: 2px solid blue;
+
+}
+.main .btn{
+    background: whitesmoke;
+    border: none;
+}
